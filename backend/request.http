@@ -1,0 +1,31 @@
+POST http://localhost:4000/gov-api/register
+Content-Type: application/json
+
+{
+    "userType":"govofficer",
+    "username":"akaay",
+    "password":"akaay",
+    "email":"akaay@gmail.com"
+}
+
+###
+POST http://localhost:4000/gov-api/login
+Content-Type: application/json
+
+{
+    "userType":"govofficer",
+    "username":"akaay",
+    "password":"akaay"
+}
+
+###
+POST http://localhost:4000/org-api/register
+Content-Type: application/json
+
+{
+    "userType":"orgofficer",
+    "username":"akaay",
+    "password":"akaay",
+    "email":"akaay@gmail.com"
+}
+
